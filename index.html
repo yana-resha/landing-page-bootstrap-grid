@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- бургер -->
   <script defer src="java/burger.js"></script>
+  <script defer src="java/scroll.js"></script>
+  <script src="java/smooth-scroll.min.js"></script>
 </head>
 <body>
   <header class="header__container">
@@ -29,23 +31,23 @@
         <nav class="header__nav">
           <ul class="header__ul is-active" id="menu">
             <li class="header__li">
-              <a href="" class="header__nav-link">Главная</a>
+              <a href="#main" class="header__nav-link">Главная</a>
             </li>
             <li class="header__li">
-              <a href="" class="header__nav-link">О&nbsp;наc</a>
+              <a href="#about-us" class="header__nav-link">О&nbsp;наc</a>
             </li>
             <li class="header__li">
-              <a href="" class="header__nav-link">Преподаватели</a>
+              <a href="#teachers" class="header__nav-link">Преподаватели</a>
             </li>
             <li class="header__li">
-              <a href="" class="header__nav-link">Курсы</a>
+              <a href="#cours" class="header__nav-link">Курсы</a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
-  <section class="three-d">
+  <section class="three-d" id="main">
     <div class="container cont-three-d">
       <div class="row">
         <div class="col-6 three-d__content">
@@ -62,7 +64,7 @@
       </div>
     </div>
   </section>
-  <section class="advantage">
+  <section class="advantage" id="about-us">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -104,7 +106,7 @@
     </ul>
     </div>
   </section>
-  <section class="teachers">
+  <section class="teachers" id="teachers">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -173,7 +175,7 @@
       </ul>
     </div>
   </section>
-  <section class="cours">
+  <section class="cours" id="cours">
     <div class="container">
       <div class="row">
         <div class="col-12">
