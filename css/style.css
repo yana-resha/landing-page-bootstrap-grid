@@ -600,7 +600,7 @@ h2 {
         /* margin-left: 100px; */
         top: -480px;
         left: 0;
-        background-color: rgba(63, 42, 255, 0.8);
+        background-color: rgba(64, 64, 64, 0.8);
         position: absolute;
         transition: transform .3s ease-in-out;
         transform: translateY(560px);
@@ -615,7 +615,7 @@ h2 {
     }
 
     .header__li {
-        color: white;
+        color: #3F2AF;
         margin-bottom: 0px;
         margin-right: 0;
     }
